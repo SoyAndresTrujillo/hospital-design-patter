@@ -1,0 +1,1703 @@
+{
+  "hospitales": [
+    {
+      "codigo": "H001",
+      "nombre": "Hospital Central",
+      "direccion": "Calle Principal 123, Ciudad A",
+      "telefono": "123456789",
+      "cantidad_de_camas": 150,
+      "salas": [
+        {
+          "codigo": "S001",
+          "nombre": "Sala de Urgencias",
+          "cantidad_de_camas": 20
+        },
+        {
+          "codigo": "S002",
+          "nombre": "Sala de Pediatría",
+          "cantidad_de_camas": 15
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M001",
+          "nombre": "Dr. Juan Pérez",
+          "especialidad": "Cardiología"
+        },
+        {
+          "cedula_de_identidad": "M002",
+          "nombre": "Dra. Ana Gómez",
+          "especialidad": "Pediatría"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L001",
+          "nombre": "Laboratorio ABC",
+          "direccion": "Calle Secundaria 456, Ciudad A",
+          "telefono": "987654321",
+          "servicios": [
+            {
+              "descripcion": "Análisis de sangre",
+              "fecha": "2024-05-01"
+            },
+            {
+              "descripcion": "Radiografía",
+              "fecha": "2024-05-02"
+            }
+          ]
+        },
+        {
+          "codigo": "L002",
+          "nombre": "Laboratorio XYZ",
+          "direccion": "Avenida Tercera 789, Ciudad A",
+          "telefono": "123123123",
+          "servicios": [
+            {
+              "descripcion": "Resonancia magnética",
+              "fecha": "2024-05-03"
+            },
+            {
+              "descripcion": "Análisis de orina",
+              "fecha": "2024-05-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H002",
+      "nombre": "Hospital Regional",
+      "direccion": "Avenida Central 456, Ciudad B",
+      "telefono": "234567890",
+      "cantidad_de_camas": 200,
+      "salas": [
+        {
+          "codigo": "S001",
+          "nombre": "Sala de Emergencias",
+          "cantidad_de_camas": 30
+        },
+        {
+          "codigo": "S003",
+          "nombre": "Sala de Maternidad",
+          "cantidad_de_camas": 25
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M003",
+          "nombre": "Dr. Carlos López",
+          "especialidad": "Neurología"
+        },
+        {
+          "cedula_de_identidad": "M004",
+          "nombre": "Dra. María Fernández",
+          "especialidad": "Ginecología"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L003",
+          "nombre": "Laboratorio DEF",
+          "direccion": "Calle Cuarta 321, Ciudad B",
+          "telefono": "321654987",
+          "servicios": [
+            {
+              "descripcion": "Tomografía",
+              "fecha": "2024-05-05"
+            },
+            {
+              "descripcion": "Biopsia",
+              "fecha": "2024-05-06"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H003",
+      "nombre": "Hospital Universitario",
+      "direccion": "Calle Sexta 789, Ciudad C",
+      "telefono": "345678901",
+      "cantidad_de_camas": 250,
+      "salas": [
+        {
+          "codigo": "S004",
+          "nombre": "Sala de Cirugía",
+          "cantidad_de_camas": 40
+        },
+        {
+          "codigo": "S005",
+          "nombre": "Sala de Oncología",
+          "cantidad_de_camas": 35
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M005",
+          "nombre": "Dr. Roberto Martínez",
+          "especialidad": "Oncología"
+        },
+        {
+          "cedula_de_identidad": "M006",
+          "nombre": "Dra. Lucía Ramírez",
+          "especialidad": "Cirugía"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L004",
+          "nombre": "Laboratorio GHI",
+          "direccion": "Avenida Quinta 987, Ciudad C",
+          "telefono": "432198765",
+          "servicios": [
+            {
+              "descripcion": "Análisis de ADN",
+              "fecha": "2024-05-07"
+            },
+            {
+              "descripcion": "Ecografía",
+              "fecha": "2024-05-08"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H004",
+      "nombre": "Hospital de la Mujer",
+      "direccion": "Calle Octava 321, Ciudad D",
+      "telefono": "456789012",
+      "cantidad_de_camas": 180,
+      "salas": [
+        {
+          "codigo": "S006",
+          "nombre": "Sala de Ginecología",
+          "cantidad_de_camas": 25
+        },
+        {
+          "codigo": "S007",
+          "nombre": "Sala de Obstetricia",
+          "cantidad_de_camas": 30
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M007",
+          "nombre": "Dr. Jorge González",
+          "especialidad": "Obstetricia"
+        },
+        {
+          "cedula_de_identidad": "M008",
+          "nombre": "Dra. Paula Torres",
+          "especialidad": "Ginecología"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L005",
+          "nombre": "Laboratorio JKL",
+          "direccion": "Avenida Sexta 654, Ciudad D",
+          "telefono": "543219876",
+          "servicios": [
+            {
+              "descripcion": "Mamografía",
+              "fecha": "2024-05-09"
+            },
+            {
+              "descripcion": "Citología",
+              "fecha": "2024-05-10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H005",
+      "nombre": "Hospital Infantil",
+      "direccion": "Calle Novena 123, Ciudad E",
+      "telefono": "567890123",
+      "cantidad_de_camas": 120,
+      "salas": [
+        {
+          "codigo": "S008",
+          "nombre": "Sala de Pediatría",
+          "cantidad_de_camas": 20
+        },
+        {
+          "codigo": "S009",
+          "nombre": "Sala de Neonatología",
+          "cantidad_de_camas": 15
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M009",
+          "nombre": "Dr. David Martínez",
+          "especialidad": "Pediatría"
+        },
+        {
+          "cedula_de_identidad": "M010",
+          "nombre": "Dra. Laura Pérez",
+          "especialidad": "Neonatología"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L006",
+          "nombre": "Laboratorio MNO",
+          "direccion": "Avenida Octava 321, Ciudad E",
+          "telefono": "654321987",
+          "servicios": [
+            {
+              "descripcion": "Pruebas de alergia",
+              "fecha": "2024-05-11"
+            },
+            {
+              "descripcion": "Cultivo de garganta",
+              "fecha": "2024-05-12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H006",
+      "nombre": "Hospital de Especialidades",
+      "direccion": "Calle Décima 456, Ciudad F",
+      "telefono": "678901234",
+      "cantidad_de_camas": 300,
+      "salas": [
+        {
+          "codigo": "S010",
+          "nombre": "Sala de Cardiología",
+          "cantidad_de_camas": 50
+        },
+        {
+          "codigo": "S011",
+          "nombre": "Sala de Neurología",
+          "cantidad_de_camas": 45
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M011",
+          "nombre": "Dr. Sergio López",
+          "especialidad": "Cardiología"
+        },
+        {
+          "cedula_de_identidad": "M012",
+          "nombre": "Dra. Marta Ríos",
+          "especialidad": "Neurología"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L007",
+          "nombre": "Laboratorio PQR",
+          "direccion": "Avenida Séptima 987, Ciudad F",
+          "telefono": "765432198",
+          "servicios": [
+            {
+              "descripcion": "Prueba de esfuerzo",
+              "fecha": "2024-05-13"
+            },
+            {
+              "descripcion": "Electroencefalograma",
+              "fecha": "2024-05-14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H007",
+      "nombre": "Hospital General",
+      "direccion": "Calle Undécima 789, Ciudad G",
+      "telefono": "789012345",
+      "cantidad_de_camas": 220,
+      "salas": [
+        {
+          "codigo": "S012",
+          "nombre": "Sala de Medicina Interna",
+          "cantidad_de_camas": 35
+        },
+        {
+          "codigo": "S013",
+          "nombre": "Sala de Cuidados Intensivos",
+          "cantidad_de_camas": 30
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M013",
+          "nombre": "Dr. Julio Fernández",
+          "especialidad": "Medicina Interna"
+        },
+        {
+          "cedula_de_identidad": "M014",
+          "nombre": "Dra. Silvia Torres",
+          "especialidad": "Cuidados Intensivos"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L008",
+          "nombre": "Laboratorio STU",
+          "direccion": "Avenida Octava 654, Ciudad G",
+          "telefono": "876543219",
+          "servicios": [
+            {
+              "descripcion": "Análisis de sangre",
+              "fecha": "2024-05-15"
+            },
+            {
+              "descripcion": "Biopsia",
+              "fecha": "2024-05-16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H008",
+      "nombre": "Hospital de Rehabilitación",
+      "direccion": "Calle Duodécima 123, Ciudad H",
+      "telefono": "890123456",
+      "cantidad_de_camas": 140,
+      "salas": [
+        {
+          "codigo": "S014",
+          "nombre": "Sala de Terapia Física",
+          "cantidad_de_camas": 20
+        },
+        {
+          "codigo": "S015",
+          "nombre": "Sala de Terapia Ocupacional",
+          "cantidad_de_camas": 15
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M015",
+          "nombre": "Dr. Fernando García",
+          "especialidad": "Fisiatría"
+        },
+        {
+          "cedula_de_identidad": "M016",
+          "nombre": "Dra. Carolina Martínez",
+          "especialidad": "Terapia Ocupacional"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L009",
+          "nombre": "Laboratorio VWX",
+          "direccion": "Avenida Novena 321, Ciudad H",
+          "telefono": "987654321",
+          "servicios": [
+            {
+              "descripcion": "Electromiografía",
+              "fecha": "2024-05-17"
+            },
+            {
+              "descripcion": "Ultrasonido",
+              "fecha": "2024-05-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H009",
+      "nombre": "Hospital de Traumatología",
+      "direccion": "Calle Trece 456, Ciudad I",
+      "telefono": "901234567",
+      "cantidad_de_camas": 160,
+      "salas": [
+        {
+          "codigo": "S016",
+          "nombre": "Sala de Ortopedia",
+          "cantidad_de_camas": 25
+        },
+        {
+          "codigo": "S017",
+          "nombre": "Sala de Traumatología",
+          "cantidad_de_camas": 30
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M017",
+          "nombre": "Dr. Enrique Rojas",
+          "especialidad": "Ortopedia"
+        },
+        {
+          "cedula_de_identidad": "M018",
+          "nombre": "Dra. Sofía Ruiz",
+          "especialidad": "Traumatología"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L010",
+          "nombre": "Laboratorio YZ",
+          "direccion": "Avenida Décima 987, Ciudad I",
+          "telefono": "109876543",
+          "servicios": [
+            {
+              "descripcion": "Rayos X",
+              "fecha": "2024-05-19"
+            },
+            {
+              "descripcion": "Tomografía",
+              "fecha": "2024-05-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H010",
+      "nombre": "Hospital de Dermatología",
+      "direccion": "Calle Catorce 789, Ciudad J",
+      "telefono": "012345678",
+      "cantidad_de_camas": 100,
+      "salas": [
+        {
+          "codigo": "S018",
+          "nombre": "Sala de Dermatología",
+          "cantidad_de_camas": 15
+        },
+        {
+          "codigo": "S019",
+          "nombre": "Sala de Alergología",
+          "cantidad_de_camas": 20
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M019",
+          "nombre": "Dr. Ricardo Jiménez",
+          "especialidad": "Dermatología"
+        },
+        {
+          "cedula_de_identidad": "M020",
+          "nombre": "Dra. Marta Sánchez",
+          "especialidad": "Alergología"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L011",
+          "nombre": "Laboratorio ABC",
+          "direccion": "Avenida Undécima 654, Ciudad J",
+          "telefono": "234567890",
+          "servicios": [
+            {
+              "descripcion": "Biopsia de piel",
+              "fecha": "2024-05-21"
+            },
+            {
+              "descripcion": "Pruebas de alergia",
+              "fecha": "2024-05-22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H011",
+      "nombre": "Hospital Psiquiátrico",
+      "direccion": "Calle Quince 123, Ciudad K",
+      "telefono": "234567891",
+      "cantidad_de_camas": 200,
+      "salas": [
+        {
+          "codigo": "S020",
+          "nombre": "Sala de Psiquiatría",
+          "cantidad_de_camas": 40
+        },
+        {
+          "codigo": "S021",
+          "nombre": "Sala de Psicoterapia",
+          "cantidad_de_camas": 35
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M021",
+          "nombre": "Dr. Luis Herrera",
+          "especialidad": "Psiquiatría"
+        },
+        {
+          "cedula_de_identidad": "M022",
+          "nombre": "Dra. Patricia Castro",
+          "especialidad": "Psicología"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L012",
+          "nombre": "Laboratorio DEF",
+          "direccion": "Avenida Duodécima 321, Ciudad K",
+          "telefono": "345678912",
+          "servicios": [
+            {
+              "descripcion": "Electroencefalograma",
+              "fecha": "2024-05-23"
+            },
+            {
+              "descripcion": "Pruebas de neuroimagen",
+              "fecha": "2024-05-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H012",
+      "nombre": "Hospital de Infectología",
+      "direccion": "Calle Dieciséis 456, Ciudad L",
+      "telefono": "345678913",
+      "cantidad_de_camas": 180,
+      "salas": [
+        {
+          "codigo": "S022",
+          "nombre": "Sala de Infecciosos",
+          "cantidad_de_camas": 25
+        },
+        {
+          "codigo": "S023",
+          "nombre": "Sala de Aislamiento",
+          "cantidad_de_camas": 20
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M023",
+          "nombre": "Dr. Mario Gómez",
+          "especialidad": "Infectología"
+        },
+        {
+          "cedula_de_identidad": "M024",
+          "nombre": "Dra. Carla Torres",
+          "especialidad": "Medicina Interna"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L013",
+          "nombre": "Laboratorio GHI",
+          "direccion": "Avenida Trece 987, Ciudad L",
+          "telefono": "456789134",
+          "servicios": [
+            {
+              "descripcion": "Cultivo de bacterias",
+              "fecha": "2024-05-25"
+            },
+            {
+              "descripcion": "Pruebas de VIH",
+              "fecha": "2024-05-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H013",
+      "nombre": "Hospital de Endocrinología",
+      "direccion": "Calle Diecisiete 789, Ciudad M",
+      "telefono": "456789135",
+      "cantidad_de_camas": 150,
+      "salas": [
+        {
+          "codigo": "S024",
+          "nombre": "Sala de Diabetes",
+          "cantidad_de_camas": 20
+        },
+        {
+          "codigo": "S025",
+          "nombre": "Sala de Tiroides",
+          "cantidad_de_camas": 15
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M025",
+          "nombre": "Dr. Alberto Ruiz",
+          "especialidad": "Endocrinología"
+        },
+        {
+          "cedula_de_identidad": "M026",
+          "nombre": "Dra. Elisa Pérez",
+          "especialidad": "Diabetología"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L014",
+          "nombre": "Laboratorio JKL",
+          "direccion": "Avenida Catorce 654, Ciudad M",
+          "telefono": "567890246",
+          "servicios": [
+            {
+              "descripcion": "Análisis de glucosa",
+              "fecha": "2024-05-27"
+            },
+            {
+              "descripcion": "Pruebas hormonales",
+              "fecha": "2024-05-28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H014",
+      "nombre": "Hospital de Geriatría",
+      "direccion": "Calle Dieciocho 123, Ciudad N",
+      "telefono": "567890247",
+      "cantidad_de_camas": 160,
+      "salas": [
+        {
+          "codigo": "S026",
+          "nombre": "Sala de Geriatría",
+          "cantidad_de_camas": 25
+        },
+        {
+          "codigo": "S027",
+          "nombre": "Sala de Cuidados Paliativos",
+          "cantidad_de_camas": 30
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M027",
+          "nombre": "Dr. Ernesto Gómez",
+          "especialidad": "Geriatría"
+        },
+        {
+          "cedula_de_identidad": "M028",
+          "nombre": "Dra. Alicia Torres",
+          "especialidad": "Medicina Interna"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L015",
+          "nombre": "Laboratorio MNO",
+          "direccion": "Avenida Quince 321, Ciudad N",
+          "telefono": "678901357",
+          "servicios": [
+            {
+              "descripcion": "Pruebas de función renal",
+              "fecha": "2024-05-29"
+            },
+            {
+              "descripcion": "Pruebas de función hepática",
+              "fecha": "2024-05-30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H015",
+      "nombre": "Hospital de Nefrología",
+      "direccion": "Calle Diecinueve 456, Ciudad O",
+      "telefono": "678901358",
+      "cantidad_de_camas": 140,
+      "salas": [
+        {
+          "codigo": "S028",
+          "nombre": "Sala de Hemodiálisis",
+          "cantidad_de_camas": 20
+        },
+        {
+          "codigo": "S029",
+          "nombre": "Sala de Trasplantes",
+          "cantidad_de_camas": 25
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M029",
+          "nombre": "Dr. Gustavo Jiménez",
+          "especialidad": "Nefrología"
+        },
+        {
+          "cedula_de_identidad": "M030",
+          "nombre": "Dra. Isabel Rojas",
+          "especialidad": "Medicina Interna"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L016",
+          "nombre": "Laboratorio PQR",
+          "direccion": "Avenida Dieciséis 654, Ciudad O",
+          "telefono": "789012468",
+          "servicios": [
+            {
+              "descripcion": "Análisis de orina",
+              "fecha": "2024-06-01"
+            },
+            {
+              "descripcion": "Pruebas de función renal",
+              "fecha": "2024-06-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H016",
+      "nombre": "Hospital de Reumatología",
+      "direccion": "Calle Veinte 789, Ciudad P",
+      "telefono": "789012469",
+      "cantidad_de_camas": 120,
+      "salas": [
+        {
+          "codigo": "S030",
+          "nombre": "Sala de Reumatología",
+          "cantidad_de_camas": 15
+        },
+        {
+          "codigo": "S031",
+          "nombre": "Sala de Fisioterapia",
+          "cantidad_de_camas": 20
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M031",
+          "nombre": "Dr. Ignacio Ruiz",
+          "especialidad": "Reumatología"
+        },
+        {
+          "cedula_de_identidad": "M032",
+          "nombre": "Dra. Verónica Torres",
+          "especialidad": "Fisioterapia"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L017",
+          "nombre": "Laboratorio STU",
+          "direccion": "Avenida Diecisiete 321, Ciudad P",
+          "telefono": "890123579",
+          "servicios": [
+            {
+              "descripcion": "Pruebas de autoanticuerpos",
+              "fecha": "2024-06-03"
+            },
+            {
+              "descripcion": "Ecografía articular",
+              "fecha": "2024-06-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H017",
+      "nombre": "Hospital de Hematología",
+      "direccion": "Calle Veintiuno 123, Ciudad Q",
+      "telefono": "890123580",
+      "cantidad_de_camas": 130,
+      "salas": [
+        {
+          "codigo": "S032",
+          "nombre": "Sala de Hematología",
+          "cantidad_de_camas": 20
+        },
+        {
+          "codigo": "S033",
+          "nombre": "Sala de Transfusiones",
+          "cantidad_de_camas": 15
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M033",
+          "nombre": "Dr. Daniel Herrera",
+          "especialidad": "Hematología"
+        },
+        {
+          "cedula_de_identidad": "M034",
+          "nombre": "Dra. Rosa Fernández",
+          "especialidad": "Medicina Interna"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L018",
+          "nombre": "Laboratorio VWX",
+          "direccion": "Avenida Dieciocho 654, Ciudad Q",
+          "telefono": "901234690",
+          "servicios": [
+            {
+              "descripcion": "Hemograma completo",
+              "fecha": "2024-06-05"
+            },
+            {
+              "descripcion": "Tipificación sanguínea",
+              "fecha": "2024-06-06"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H018",
+      "nombre": "Hospital de Gastroenterología",
+      "direccion": "Calle Veintidós 456, Ciudad R",
+      "telefono": "901234691",
+      "cantidad_de_camas": 170,
+      "salas": [
+        {
+          "codigo": "S034",
+          "nombre": "Sala de Gastroenterología",
+          "cantidad_de_camas": 25
+        },
+        {
+          "codigo": "S035",
+          "nombre": "Sala de Hepatología",
+          "cantidad_de_camas": 20
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M035",
+          "nombre": "Dr. Francisco Martínez",
+          "especialidad": "Gastroenterología"
+        },
+        {
+          "cedula_de_identidad": "M036",
+          "nombre": "Dra. Alejandra Ramírez",
+          "especialidad": "Hepatología"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L019",
+          "nombre": "Laboratorio YZ",
+          "direccion": "Avenida Diecinueve 321, Ciudad R",
+          "telefono": "012345791",
+          "servicios": [
+            {
+              "descripcion": "Pruebas de función hepática",
+              "fecha": "2024-06-07"
+            },
+            {
+              "descripcion": "Endoscopia digestiva",
+              "fecha": "2024-06-08"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H019",
+      "nombre": "Hospital de Neumología",
+      "direccion": "Calle Veintitrés 789, Ciudad S",
+      "telefono": "012345792",
+      "cantidad_de_camas": 150,
+      "salas": [
+        {
+          "codigo": "S036",
+          "nombre": "Sala de Neumología",
+          "cantidad_de_camas": 20
+        },
+        {
+          "codigo": "S037",
+          "nombre": "Sala de Terapia Respiratoria",
+          "cantidad_de_camas": 25
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M037",
+          "nombre": "Dr. Federico Gómez",
+          "especialidad": "Neumología"
+        },
+        {
+          "cedula_de_identidad": "M038",
+          "nombre": "Dra. Diana López",
+          "especialidad": "Medicina Interna"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L020",
+          "nombre": "Laboratorio ABC",
+          "direccion": "Avenida Veinte 654, Ciudad S",
+          "telefono": "123456802",
+          "servicios": [
+            {
+              "descripcion": "Pruebas de función pulmonar",
+              "fecha": "2024-06-09"
+            },
+            {
+              "descripcion": "Radiografía de tórax",
+              "fecha": "2024-06-10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H020",
+      "nombre": "Hospital de Urología",
+      "direccion": "Calle Veinticuatro 123, Ciudad T",
+      "telefono": "123456803",
+      "cantidad_de_camas": 140,
+      "salas": [
+        {
+          "codigo": "S038",
+          "nombre": "Sala de Urología",
+          "cantidad_de_camas": 20
+        },
+        {
+          "codigo": "S039",
+          "nombre": "Sala de Nefrología",
+          "cantidad_de_camas": 25
+        }
+      ],
+      "medicos": [
+        {
+          "cedula_de_identidad": "M039",
+          "nombre": "Dr. Héctor Ramírez",
+          "especialidad": "Urología"
+        },
+        {
+          "cedula_de_identidad": "M040",
+          "nombre": "Dra. María Gómez",
+          "especialidad": "Nefrología"
+        }
+      ],
+      "laboratorios": [
+        {
+          "codigo": "L021",
+          "nombre": "Laboratorio DEF",
+          "direccion": "Avenida Veintiuno 321, Ciudad T",
+          "telefono": "234567814",
+          "servicios": [
+            {
+              "descripcion": "Pruebas de PSA",
+              "fecha": "2024-06-11"
+            },
+            {
+              "descripcion": "Uroflujometría",
+              "fecha": "2024-06-12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pacientes": [
+    {
+      "cedula_de_identidad": "P001",
+      "numero_de_registro": "R001",
+      "numero_de_cama": "C001",
+      "nombre": "Pedro Martínez",
+      "direccion": "Calle Quinta 789, Ciudad A",
+      "fecha_de_nacimiento": "1990-01-01",
+      "sexo": "Masculino",
+      "hospital": "H001",
+      "sala": "S001",
+      "atenciones_medicas": [
+        {
+          "medico": "M001",
+          "fecha": "2024-05-10"
+        },
+        {
+          "medico": "M002",
+          "fecha": "2024-05-11"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D001",
+          "tipo": "Gripe",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-09"
+        },
+        {
+          "codigo": "D002",
+          "tipo": "Fiebre",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-12"
+        }
+      ]
+    },
+
+    {
+      "cedula_de_identidad": "P002",
+      "numero_de_registro": "R002",
+      "numero_de_cama": "C002",
+      "nombre": "María Sánchez",
+      "direccion": "Avenida Sexta 123, Ciudad B",
+      "fecha_de_nacimiento": "1985-02-15",
+      "sexo": "Femenino",
+      "hospital": "H002",
+      "sala": "S003",
+      "atenciones_medicas": [
+        {
+          "medico": "M003",
+          "fecha": "2024-05-13"
+        },
+        {
+          "medico": "M004",
+          "fecha": "2024-05-14"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D003",
+          "tipo": "Migraña",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-10"
+        },
+        {
+          "codigo": "D004",
+          "tipo": "Hipertensión",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-15"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P003",
+      "numero_de_registro": "R003",
+      "numero_de_cama": "C003",
+      "nombre": "Luisa Pérez",
+      "direccion": "Calle Séptima 456, Ciudad C",
+      "fecha_de_nacimiento": "1975-03-30",
+      "sexo": "Femenino",
+      "hospital": "H003",
+      "sala": "S004",
+      "atenciones_medicas": [
+        {
+          "medico": "M005",
+          "fecha": "2024-05-16"
+        },
+        {
+          "medico": "M006",
+          "fecha": "2024-05-17"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D005",
+          "tipo": "Cáncer",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-11"
+        },
+        {
+          "codigo": "D006",
+          "tipo": "Tumor",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-18"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P004",
+      "numero_de_registro": "R004",
+      "numero_de_cama": "C004",
+      "nombre": "Carlos Gómez",
+      "direccion": "Avenida Octava 789, Ciudad D",
+      "fecha_de_nacimiento": "1960-04-15",
+      "sexo": "Masculino",
+      "hospital": "H004",
+      "sala": "S006",
+      "atenciones_medicas": [
+        {
+          "medico": "M007",
+          "fecha": "2024-05-19"
+        },
+        {
+          "medico": "M008",
+          "fecha": "2024-05-20"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D007",
+          "tipo": "Diabetes",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-12"
+        },
+        {
+          "codigo": "D008",
+          "tipo": "Hipertensión",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-21"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P005",
+      "numero_de_registro": "R005",
+      "numero_de_cama": "C005",
+      "nombre": "Ana Torres",
+      "direccion": "Calle Novena 123, Ciudad E",
+      "fecha_de_nacimiento": "1955-05-30",
+      "sexo": "Femenino",
+      "hospital": "H005",
+      "sala": "S008",
+      "atenciones_medicas": [
+        {
+          "medico": "M009",
+          "fecha": "2024-05-22"
+        },
+        {
+          "medico": "M010",
+          "fecha": "2024-05-23"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D009",
+          "tipo": "Neumonía",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-13"
+        },
+        {
+          "codigo": "D010",
+          "tipo": "Bronquitis",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-24"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P006",
+      "numero_de_registro": "R006",
+      "numero_de_cama": "C006",
+      "nombre": "Jorge Ramírez",
+      "direccion": "Avenida Décima 456, Ciudad F",
+      "fecha_de_nacimiento": "1945-06-15",
+      "sexo": "Masculino",
+      "hospital": "H006",
+      "sala": "S010",
+      "atenciones_medicas": [
+        {
+          "medico": "M011",
+          "fecha": "2024-05-25"
+        },
+        {
+          "medico": "M012",
+          "fecha": "2024-05-26"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D011",
+          "tipo": "Infarto",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-14"
+        },
+        {
+          "codigo": "D012",
+          "tipo": "Arritmia",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-27"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P007",
+      "numero_de_registro": "R007",
+      "numero_de_cama": "C007",
+      "nombre": "Marta López",
+      "direccion": "Calle Once 123, Ciudad G",
+      "fecha_de_nacimiento": "1980-07-20",
+      "sexo": "Femenino",
+      "hospital": "H007",
+      "sala": "S012",
+      "atenciones_medicas": [
+        {
+          "medico": "M013",
+          "fecha": "2024-05-28"
+        },
+        {
+          "medico": "M014",
+          "fecha": "2024-05-29"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D013",
+          "tipo": "Asma",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-15"
+        },
+        {
+          "codigo": "D014",
+          "tipo": "Alergia",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-30"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P008",
+      "numero_de_registro": "R008",
+      "numero_de_cama": "C008",
+      "nombre": "Laura García",
+      "direccion": "Avenida Doce 456, Ciudad H",
+      "fecha_de_nacimiento": "1995-08-25",
+      "sexo": "Femenino",
+      "hospital": "H008",
+      "sala": "S014",
+      "atenciones_medicas": [
+        {
+          "medico": "M015",
+          "fecha": "2024-06-01"
+        },
+        {
+          "medico": "M016",
+          "fecha": "2024-06-02"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D015",
+          "tipo": "Lumbalgia",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-16"
+        },
+        {
+          "codigo": "D016",
+          "tipo": "Cervicalgia",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-06-03"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P009",
+      "numero_de_registro": "R009",
+      "numero_de_cama": "C009",
+      "nombre": "Alberto Fernández",
+      "direccion": "Calle Trece 789, Ciudad I",
+      "fecha_de_nacimiento": "1970-09-30",
+      "sexo": "Masculino",
+      "hospital": "H009",
+      "sala": "S016",
+      "atenciones_medicas": [
+        {
+          "medico": "M017",
+          "fecha": "2024-06-04"
+        },
+        {
+          "medico": "M018",
+          "fecha": "2024-06-05"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D017",
+          "tipo": "Fractura",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-17"
+        },
+        {
+          "codigo": "D018",
+          "tipo": "Esguince",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-06-06"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P010",
+      "numero_de_registro": "R010",
+      "numero_de_cama": "C010",
+      "nombre": "Sofía Ramírez",
+      "direccion": "Avenida Catorce 123, Ciudad J",
+      "fecha_de_nacimiento": "1985-10-15",
+      "sexo": "Femenino",
+      "hospital": "H010",
+      "sala": "S018",
+      "atenciones_medicas": [
+        {
+          "medico": "M019",
+          "fecha": "2024-06-07"
+        },
+        {
+          "medico": "M020",
+          "fecha": "2024-06-08"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D019",
+          "tipo": "Dermatitis",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-18"
+        },
+        {
+          "codigo": "D020",
+          "tipo": "Psoriasis",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-06-09"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P011",
+      "numero_de_registro": "R011",
+      "numero_de_cama": "C011",
+      "nombre": "Ricardo Torres",
+      "direccion": "Calle Quince 456, Ciudad K",
+      "fecha_de_nacimiento": "1992-11-20",
+      "sexo": "Masculino",
+      "hospital": "H011",
+      "sala": "S020",
+      "atenciones_medicas": [
+        {
+          "medico": "M021",
+          "fecha": "2024-06-10"
+        },
+        {
+          "medico": "M022",
+          "fecha": "2024-06-11"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D021",
+          "tipo": "Esquizofrenia",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-19"
+        },
+        {
+          "codigo": "D022",
+          "tipo": "Depresión",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-06-12"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P012",
+      "numero_de_registro": "R012",
+      "numero_de_cama": "C012",
+      "nombre": "Patricia Gómez",
+      "direccion": "Avenida Dieciséis 789, Ciudad L",
+      "fecha_de_nacimiento": "1978-12-25",
+      "sexo": "Femenino",
+      "hospital": "H012",
+      "sala": "S022",
+      "atenciones_medicas": [
+        {
+          "medico": "M023",
+          "fecha": "2024-06-13"
+        },
+        {
+          "medico": "M024",
+          "fecha": "2024-06-14"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D023",
+          "tipo": "Hepatitis",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-20"
+        },
+        {
+          "codigo": "D024",
+          "tipo": "Gastroenteritis",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-06-15"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P013",
+      "numero_de_registro": "R013",
+      "numero_de_cama": "C013",
+      "nombre": "Fernando Ramírez",
+      "direccion": "Calle Diecisiete 123, Ciudad M",
+      "fecha_de_nacimiento": "1965-01-05",
+      "sexo": "Masculino",
+      "hospital": "H013",
+      "sala": "S024",
+      "atenciones_medicas": [
+        {
+          "medico": "M025",
+          "fecha": "2024-06-16"
+        },
+        {
+          "medico": "M026",
+          "fecha": "2024-06-17"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D025",
+          "tipo": "Diabetes",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-21"
+        },
+        {
+          "codigo": "D026",
+          "tipo": "Hipotiroidismo",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-06-18"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P014",
+      "numero_de_registro": "R014",
+      "numero_de_cama": "C014",
+      "nombre": "Gloria Fernández",
+      "direccion": "Avenida Dieciocho 456, Ciudad N",
+      "fecha_de_nacimiento": "1988-02-10",
+      "sexo": "Femenino",
+      "hospital": "H014",
+      "sala": "S026",
+      "atenciones_medicas": [
+        {
+          "medico": "M027",
+          "fecha": "2024-06-19"
+        },
+        {
+          "medico": "M028",
+          "fecha": "2024-06-20"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D027",
+          "tipo": "Artritis",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-22"
+        },
+        {
+          "codigo": "D028",
+          "tipo": "Osteoporosis",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-06-21"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P015",
+      "numero_de_registro": "R015",
+      "numero_de_cama": "C015",
+      "nombre": "Héctor López",
+      "direccion": "Calle Diecinueve 789, Ciudad O",
+      "fecha_de_nacimiento": "1973-03-15",
+      "sexo": "Masculino",
+      "hospital": "H015",
+      "sala": "S028",
+      "atenciones_medicas": [
+        {
+          "medico": "M029",
+          "fecha": "2024-06-22"
+        },
+        {
+          "medico": "M030",
+          "fecha": "2024-06-23"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D029",
+          "tipo": "Insuficiencia renal",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-23"
+        },
+        {
+          "codigo": "D030",
+          "tipo": "Cálculos renales",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-06-24"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P016",
+      "numero_de_registro": "R016",
+      "numero_de_cama": "C016",
+      "nombre": "Verónica Torres",
+      "direccion": "Avenida Veinte 123, Ciudad P",
+      "fecha_de_nacimiento": "1981-04-10",
+      "sexo": "Femenino",
+      "hospital": "H016",
+      "sala": "S030",
+      "atenciones_medicas": [
+        {
+          "medico": "M031",
+          "fecha": "2024-06-25"
+        },
+        {
+          "medico": "M032",
+          "fecha": "2024-06-26"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D031",
+          "tipo": "Artritis reumatoide",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-24"
+        },
+        {
+          "codigo": "D032",
+          "tipo": "Lupus",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-06-27"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P017",
+      "numero_de_registro": "R017",
+      "numero_de_cama": "C017",
+      "nombre": "Roberto Fernández",
+      "direccion": "Calle Veintiuno 456, Ciudad Q",
+      "fecha_de_nacimiento": "1976-05-05",
+      "sexo": "Masculino",
+      "hospital": "H017",
+      "sala": "S032",
+      "atenciones_medicas": [
+        {
+          "medico": "M033",
+          "fecha": "2024-06-28"
+        },
+        {
+          "medico": "M034",
+          "fecha": "2024-06-29"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D033",
+          "tipo": "Leucemia",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-25"
+        },
+        {
+          "codigo": "D034",
+          "tipo": "Anemia",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-06-30"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P018",
+      "numero_de_registro": "R018",
+      "numero_de_cama": "C018",
+      "nombre": "Alejandra Martínez",
+      "direccion": "Avenida Veintidós 789, Ciudad R",
+      "fecha_de_nacimiento": "1990-06-20",
+      "sexo": "Femenino",
+      "hospital": "H018",
+      "sala": "S034",
+      "atenciones_medicas": [
+        {
+          "medico": "M035",
+          "fecha": "2024-07-01"
+        },
+        {
+          "medico": "M036",
+          "fecha": "2024-07-02"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D035",
+          "tipo": "Úlcera gástrica",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-26"
+        },
+        {
+          "codigo": "D036",
+          "tipo": "Gastritis",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-07-03"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P019",
+      "numero_de_registro": "R019",
+      "numero_de_cama": "C019",
+      "nombre": "Federico Ramírez",
+      "direccion": "Calle Veintitrés 123, Ciudad S",
+      "fecha_de_nacimiento": "1983-07-15",
+      "sexo": "Masculino",
+      "hospital": "H019",
+      "sala": "S036",
+      "atenciones_medicas": [
+        {
+          "medico": "M037",
+          "fecha": "2024-07-04"
+        },
+        {
+          "medico": "M038",
+          "fecha": "2024-07-05"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D037",
+          "tipo": "Asma",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-27"
+        },
+        {
+          "codigo": "D038",
+          "tipo": "Neumonía",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-07-06"
+        }
+      ]
+    },
+    {
+      "cedula_de_identidad": "P020",
+      "numero_de_registro": "R020",
+      "numero_de_cama": "C020",
+      "nombre": "Mónica López",
+      "direccion": "Avenida Veinticuatro 456, Ciudad T",
+      "fecha_de_nacimiento": "1994-08-10",
+      "sexo": "Femenino",
+      "hospital": "H020",
+      "sala": "S038",
+      "atenciones_medicas": [
+        {
+          "medico": "M039",
+          "fecha": "2024-07-07"
+        },
+        {
+          "medico": "M040",
+          "fecha": "2024-07-08"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "codigo": "D039",
+          "tipo": "Cistitis",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-05-28"
+        },
+        {
+          "codigo": "D040",
+          "tipo": "Pielonefritis",
+          "complicaciones": "Ninguna",
+          "fecha": "2024-07-09"
+        }
+      ]
+    }
+  ]
+}
