@@ -12,3 +12,6 @@ services:
       - '${DATABASE_PORT}:5432'
     volumes:
       - ./postgres_data:/var/lib/postgresql/data
+
+# docker-compose up postgres -d
+# docker-compose down postgres

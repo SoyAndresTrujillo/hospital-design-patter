@@ -39,12 +39,10 @@ export class UsersService {
 
   async create(data: CreateUserDto) {
     const newUser = this.userRepository.create(data);
-    const hashPassword = await bcrypt.hash(newUser.password, 10);
-    newUser.password = hashPassword;
-    if (data.customer_id) {
-      const customer = await this.customersService.findOne(data.customer_id);
-      newUser.customer = customer;
-    }
+    // if (data.customer_id) {
+    //   const customer = await this.customersService.findOne(data.customer_id);
+    //   newUser.customer = customer;
+    // }
     return this.userRepository.save(newUser);
   }
 

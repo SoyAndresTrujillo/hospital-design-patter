@@ -10,7 +10,7 @@ import {
 } from '@nestjs/common';
 
 import { UsersService } from '../services/users.service';
-import { CreateUserDto, UpdateUserDto } from '../dtos/user.dto';
+import { CreateDoctorDto, CreatePatientDto, UpdateUserDto } from '../dtos/user.dto';
 
 @Controller('users')
 export class UsersController {
@@ -31,8 +31,13 @@ export class UsersController {
     return this.usersService.getOrderByUser(id);
   }
 
-  @Post()
-  create(@Body() payload: CreateUserDto) {
+  @Post('doctor')
+  createDoctor(@Body() payload: CreateDoctorDto) {
+    return this.usersService.create(payload);
+  }
+
+  @Post('patient')
+  createPatient(@Body() payload: CreatePatientDto) {
     return this.usersService.create(payload);
   }
 

@@ -20,7 +20,7 @@ async function bootstrap() {
   app.useGlobalInterceptors(new ClassSerializerInterceptor(app.get(Reflector)));
 
   const config = new DocumentBuilder()
-    .setTitle('API Store side project')
+    .setTitle('API COA HOSPITAL side project')
     .setDescription('The cats API description')
     .setVersion('1.0')
     .addTag('cats')

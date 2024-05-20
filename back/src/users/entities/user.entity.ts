@@ -23,11 +23,19 @@ export class User {
   last_name: string;
 
   @Column({ type: 'varchar', length: 255 })
-  email: string;
+  gender: string;
 
-  @Exclude()
   @Column({ type: 'varchar', length: 255 })
-  password: string;
+  id_number: string;
+
+  @Column({ type: 'varchar', length: 255 })
+  address: string;
+
+  @Column({ type: 'varchar', length: 255 })
+  bed_number: string;
+
+  @Column({ type: 'varchar', length: 255 })
+  date_of_birth: string;
 
   @Column({ type: 'varchar', length: 255 })
   role: string;
