@@ -10,6 +10,7 @@ import {
 } from '@nestjs/common';
 
 import { UsersService } from '../services/users.service';
+import { CreateDoctorDto, UpdatePatientDto } from '../dtos/user.dto';
 import { CreateDoctorDto, CreatePatientDto, UpdateUserDto } from '../dtos/user.dto';
 
 @Controller('users')
